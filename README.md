@@ -1,1 +1,1 @@
-# python-tv-recommendation-system
+# python-restaurant-recommendation-system
