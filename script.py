@@ -4,9 +4,9 @@ from welcome import *
 
 print_welcome()
 
-print("What type of food would you like to eat?")
-print("Type the beginning of that food type and press 'Enter' to search for restaurants.")
-type_of_food = input()
+type_of_food: str = input("What type of food would you like to eat?\n" + 
+                        "Type the beginning of that food type and press 'Enter' to search for restaurants.\n")
+
 
 for type in types:
     if type_of_food is type[:len(type_of_food)]:
